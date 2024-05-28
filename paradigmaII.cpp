@@ -43,3 +43,7 @@ public:
         cout << "Budi dibuat\n" << endl;
     }
 };
+
+int main(){
+    
+}
