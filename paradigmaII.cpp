@@ -3,6 +3,7 @@ using namespace std;
 
 class orang {
 public:
+
     int umur;
 
     orang(int pUmur) :
@@ -14,6 +15,7 @@ public:
 
 class pekerja : public orang {
 public:
+
     pekerja(int pUmur) :
         orang(pUmur)
     {
@@ -24,4 +26,9 @@ public:
 class pelajar : public orang {
 public:
     
+    pelajar(int pUmur) :
+        orang(pUmur)
+    {
+        cout << "pelajar dibuat\n" << endl;
+    }
 };
